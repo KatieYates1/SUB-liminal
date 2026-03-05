@@ -15,3 +15,4 @@ Ladder Goals
 -------------
 - create custom submarine crash asset
 - cut scenes for each of the endings
+- update UI assets
