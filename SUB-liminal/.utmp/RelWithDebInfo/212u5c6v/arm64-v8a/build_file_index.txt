@@ -1,0 +1,2 @@
+C:\Users\katie\Documents\Visual Studio 2022\SUB-liminal\SUB-liminal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\katie\Documents\Visual Studio 2022\SUB-liminal\SUB-liminal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

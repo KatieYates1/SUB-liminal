@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "C:\\Users\\katie\\Documents\\Visual Studio 2022\\SUB-liminal\\SUB-liminal\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\katie\\Documents\\Visual Studio 2022\\SUB-liminal\\SUB-liminal\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\GameActivity\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "K:\\6000.2.8f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\katie\\Documents\\Visual Studio 2022\\SUB-liminal\\SUB-liminal\\.utmp\\Debug\\h3s6f2c5\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "K:\\6000.2.8f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\katie\\Documents\\Visual Studio 2022\\SUB-liminal\\SUB-liminal\\.utmp\\Debug\\h3s6f2c5\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "game::@d02bb112ea9f9c2ed29f": {
+      "artifactName": "game",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\katie\\Documents\\Visual Studio 2022\\SUB-liminal\\SUB-liminal\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\Debug\\h3s6f2c5\\obj\\arm64-v8a\\libgame.so",
+      "runtimeFiles": []
+    }
+  }
+}
