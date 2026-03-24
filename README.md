@@ -4,7 +4,6 @@ To-do
 ---------
 - write dialog for each character
 - use ink to display dialogue
-- asset for player helmet around camera
 - start screen with 3D clickable "Launch" button
 - system to output dialog to the player
 - asset for planet floor
