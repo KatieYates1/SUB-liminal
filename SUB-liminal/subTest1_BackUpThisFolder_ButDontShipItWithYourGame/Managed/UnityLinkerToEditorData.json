@@ -450,7 +450,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SUB.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -935,9 +937,7 @@
           },
           {
             "name": "MeshCollider",
-            "scenes": [
-              "Assets/Scenes/SUB.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
