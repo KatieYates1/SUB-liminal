@@ -3,10 +3,13 @@ Katie Yates and Bella Miller
 To-do
 ---------
 - write dialog for each character
-- use ink to display dialogue
+- different realm scenes for different points in story
+- fix canvas for dark side
+- all interactions with Evil Eye Cat
+- text and interactions will all animals
+- textures for trees and srubs
+- textures for cat and all animals
 - start screen with 3D clickable "Launch" button
-- system to output dialog to the player
-- asset for planet floor
 - asset for object being moved around in minigame
 - end screens
 
