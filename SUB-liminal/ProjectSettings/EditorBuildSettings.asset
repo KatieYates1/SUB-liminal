@@ -5,15 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/SUB.unity
+    path: Assets/Scenes/StartScreen.unity
+    guid: ff99c4877180d6b46b45834c8a0c641e
+  - enabled: 1
+    path: Assets/Scenes/BlackScreenStart.unity
+    guid: 8c691f9f14b35534a9da57fa4f3a4c43
+  - enabled: 1
+    path: Assets/Scenes/IntroandTask1.unity
     guid: f608cf63424423a4ba6de5fb206aa728
   - enabled: 1
     path: Assets/Scenes/OtherSIde1stOrb.unity
     guid: 6163dc7ddc05e2f40be93db82a095d95
+  - enabled: 1
+    path: Assets/Scenes/Task2Realm.unity
+    guid: 4781bce637da6034490c1971c2a1a3ec
+  - enabled: 1
+    path: Assets/Scenes/OtherSide2ndOrb.unity
+    guid: 42eaac7363cf4354ba440082081a9654
+  - enabled: 1
+    path: Assets/Scenes/Task3Realm.unity
+    guid: 77bc7cf0c40c93e4b80ef8301ec565df
+  - enabled: 1
+    path: Assets/Scenes/OtherSide3rdOrb.unity
+    guid: b634d79e7c9c48c4d8838e7b960a69ee
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 232f30e6bb5591c4d91ed76baed85f0e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

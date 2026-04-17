@@ -9,6 +9,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class BasicInkExample : MonoBehaviour
 {
+	[SerializeField]
+	private bool isAnimal = true;
+
     [SerializeField]
     private TextAsset inkJSONAsset = null;
     public Story story;
@@ -39,13 +42,22 @@ public class BasicInkExample : MonoBehaviour
 	{
 		// Remove the default message
 		RemoveChildren();
-		//StartStory(); //only for debugging purposes
+		
+
+		if (!isAnimal)
+		{
+			StartStory();
+		}
 	}
 
 	void OnTriggerEnter(Collider other)
 	{
+		if(other.CompareTag("Character"))
+		{
+            StartStory();
+        }
 		//Debug.Log("Collider hit");
-		StartStory();
+		
 	}
 
 	// Creates a new Story object with the compiled story which we can then play!
@@ -104,7 +116,7 @@ public class BasicInkExample : MonoBehaviour
 		{
 			new WaitForSecondsRealtime(10f);
 			RemoveChildren();
-			Destroy(this);
+			Destroy(gameObject);
 		}
 	}
 

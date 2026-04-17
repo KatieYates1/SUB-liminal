@@ -7,6 +7,8 @@ public class TransitionOne : MonoBehaviour
     [SerializeField]
     private string sceneName;
 
+    [SerializeField]
+    private GameObject finalCatInteraction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +26,10 @@ public class TransitionOne : MonoBehaviour
     {
         if (other.CompareTag("Orb"))
         {
-            SceneManager.LoadScene(sceneName);
+            if(finalCatInteraction == null)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
         }
     }
 }
