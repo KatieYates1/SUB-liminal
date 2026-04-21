@@ -539,7 +539,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 789c420c81b232646a66b2f737eac435, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1580964812}
   m_SourcePrefab: {fileID: 100100000, guid: 789c420c81b232646a66b2f737eac435, type: 3}
 --- !u!1 &833703547
 GameObject:
@@ -780,6 +783,28 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &1136656281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 789c420c81b232646a66b2f737eac435, type: 3}
+  m_PrefabInstance: {fileID: 1442095826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1136656282
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136656281}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: edd925b6a1820b144990507ed68ca128, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: edd925b6a1820b144990507ed68ca128, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &1442095826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,7 +876,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 789c420c81b232646a66b2f737eac435, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1136656282}
   m_SourcePrefab: {fileID: 100100000, guid: 789c420c81b232646a66b2f737eac435, type: 3}
 --- !u!1 &1454517697
 GameObject:
@@ -1067,6 +1095,28 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.5515082
   m_Center: {x: -1.0515164, y: 0, z: -0.0000000018441408}
+--- !u!1 &1580964811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 789c420c81b232646a66b2f737eac435, type: 3}
+  m_PrefabInstance: {fileID: 823982555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1580964812
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580964811}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 40f95e6416b9a2b4b82d9d8c6087699c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 40f95e6416b9a2b4b82d9d8c6087699c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &1582450100
 PrefabInstance:
   m_ObjectHideFlags: 0
